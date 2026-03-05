@@ -1,0 +1,22 @@
+{
+  "name": "ph-skill-test",
+  "owner": {
+    "name": "Pedro Henrique",
+    "email": "ph@example.com"
+  },
+  "metadata": {
+    "description": "Personal skill collection for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "buzzword-engineering",
+      "description": "The complete guide to surviving tech discussions, architecture reviews, and sprint planning using only buzzwords, strategic nodding, and vague hand waves",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills"
+      ]
+    }
+  ]
+}
